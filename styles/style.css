@@ -27,7 +27,13 @@ section {
 nav {
     display: flex;
     justify-content: space-between;
-    margin: 50px 200px;
+    margin: 0 200px 50px 200px;
+}
+
+header img {
+    height: 550px;
+    width: 400px;
+    padding-left: 300px;
 }
 
 .nav-title {
@@ -179,4 +185,29 @@ main {
 .resume-btn {
     text-align: center;
     margin-top: 50px;
+}
+
+/* Contract Style */
+.contract {
+    display: flex;
+    gap: 100px;
+    background-color: #FFF8F3;
+    padding: 130px 200px;
+}
+
+.contract .section-title {
+    text-align: left;
+}
+
+.contract input[type="text"],
+input[type="email"],
+textarea {
+    margin-bottom: 24px;
+    border: 0;
+    width: 100%;
+    padding: 18px 30px;
+}
+
+.contract a {
+    text-decoration: none;
 }
