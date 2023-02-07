@@ -147,3 +147,36 @@ main {
 }
 
 /* Resume Related Style */
+
+.resume-contant {
+    display: flex;
+    gap: 24px;
+}
+
+.resume .title {
+    color: #474747;
+    font-weight: 700;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.resume-item {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.resume .sub-title {
+    color: #757575;
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.resume .description {
+    color: #757575;
+}
+
+.resume-btn {
+    text-align: center;
+    margin-top: 50px;
+}
