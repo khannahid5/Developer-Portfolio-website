@@ -211,3 +211,70 @@ textarea {
 .contract a {
     text-decoration: none;
 }
+
+/* media quary section  */
+
+@media screen and (max-width:576px) {
+    .header {
+        background-image: none;
+    }
+
+    .banner {
+        margin: 0 20px;
+    }
+
+    .banner img {
+        width: 100%;
+        padding-left: 0;
+    }
+
+    nav ul {
+        flex-direction: column;
+        gap: 20px;
+        align-items: flex-start;
+        padding-left: 20px;
+    }
+
+    nav li {
+        margin: 0;
+        padding: 0;
+    }
+
+    nav,
+    .banner,
+    .skills-container,
+    .resume-contant,
+    .about-info-container,
+    .contract {
+        flex-direction: column;
+        gap: 20px;
+        padding: 10px 20px;
+    }
+
+    .about-me,
+    .contract {
+        padding: 20px;
+    }
+
+    .contract input[type="text"],
+    input[type="email"],
+    textarea {
+        padding: 0 0 0 5px;
+    }
+}
+
+@media screen and (max-width:577px) and (min-width:992px) {
+
+    .about-me,
+    .contract {
+        padding: 20px;
+        gap: 10px;
+    }
+
+    .contract,
+    .contract input[type="text"],
+    input[type="email"],
+    textarea {
+        flex-direction: column;
+    }
+}
